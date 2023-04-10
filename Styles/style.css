@@ -257,3 +257,47 @@ body {
           object-fit: cover;
         }
       }
+
+      @media only screen and (max-width: 1000px) {
+        h1 {
+          font-size: 2rem;
+          margin: 1rem 0;
+        }
+        h2 {
+          font-size: 1.5rem;
+          margin: 0.5rem 0;
+        }
+        h3 {
+          font-size: 1.2rem;
+          margin: 0.5rem 0;
+        }
+        .main, .pontointeresse {
+          margin: 0;
+          padding: 1rem;
+        }
+        nav ul {
+          display: block;
+          text-align: center;
+          margin: 0;
+          padding: 1rem;
+        }
+        nav li {
+          display: inline-block;
+          margin: 0.5rem;
+        }
+        nav {
+          background-color: #4A4A4A;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        section {
+          margin: 1rem;
+          padding: 1rem;
+          box-shadow: none;
+        }
+        .tam {
+          float: left;
+          width:  200px;
+          height: 200px;
+          object-fit: cover;
+        }
+      }
