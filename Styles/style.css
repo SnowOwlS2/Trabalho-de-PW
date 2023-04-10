@@ -202,6 +202,7 @@ body {
       background-color: #4A4A4A;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       margin: 0;
+      padding: 0;
     }
     section {
       margin: 1rem;
@@ -210,8 +211,8 @@ body {
     }
     .tam {
       float: left;
-      width:  70px;
-      height: 70px;
+      width:  100%;
+      height: auto;
       max-width: 100%;
       object-fit: cover;
     }
@@ -247,6 +248,7 @@ body {
         nav {
           background-color: #4A4A4A;
           box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          padding: 0;
         }
         section {
           margin: 1rem;
@@ -255,8 +257,8 @@ body {
         }
         .tam {
           float: left;
-          width:  100px;
-          height: 100px;
+          width:  100%;
+          height: auto;
           max-width: 100%;
           object-fit: cover;
         }
@@ -292,6 +294,7 @@ body {
         nav {
           background-color: #4A4A4A;
           box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          padding: 0;
         }
         section {
           margin: 1rem;
@@ -300,8 +303,8 @@ body {
         }
         .tam {
           float: left;
-          width:  150px;
-          height: 150px;
+          width:  100%;
+          height: auto;
           max-width: 100%;
           object-fit: cover;
         }
