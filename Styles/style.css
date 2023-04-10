@@ -30,10 +30,6 @@ body {
     text-decoration: none;
   }
 
-  .left{
-    text-align: left;
-  }
-  
   nav {
     background-color: #4A4A4A;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -180,22 +176,16 @@ body {
       margin: 1rem 0;
     }
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin: 0.5rem 0;
     }
     h3 {
-      font-size: 1.2rem;
-      margin: 0.5rem 0;
+      font-size: 1.1rem;
+      margin: 0.4rem 0;
     }
     .main, .pontointeresse {
       margin: 0;
       padding: 1rem;
-    }
-    .left, .middle {
-      width: 100%;
-      float: none;
-      margin-top: 0;
-      padding: 0;
     }
     nav ul {
       display: block;
@@ -240,12 +230,6 @@ body {
         .main, .pontointeresse {
           margin: 0;
           padding: 1rem;
-        }
-        .left, .middle {
-          width: 100%;
-          float: none;
-          margin-top: 0;
-          padding: 0;
         }
         nav ul {
           display: block;
