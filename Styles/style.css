@@ -171,7 +171,50 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
-
+  @media only screen and (max-width: 400px) {
+    h1 {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin: 0.5rem 0;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin: 0.4rem 0;
+    }
+    .main, .pontointeresse {
+      margin: 0;
+      padding: 1rem;
+    }
+    nav ul {
+      display: block;
+      text-align: center;
+      margin: 0;
+      padding: 1rem;
+    }
+    nav li {
+      display: inline-block;
+      margin: 0.3rem;
+    }
+    nav {
+      float: right;
+      display: block;
+    }
+    section {
+      margin: 1rem;
+      padding: 1rem;
+      box-shadow: none;
+    }
+    .tam {
+      float: left;
+      width:  100%;
+      height: auto;
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
 
     @media only screen and (max-width: 480px) {
         h1 {
