@@ -199,6 +199,8 @@ body {
       margin: 0.3rem;
     }
     nav {
+      background-color: #4A4A4A;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       float: right;
       display: block;
     }
@@ -244,6 +246,8 @@ body {
           margin: 0.5rem;
         }
         nav {
+          background-color: #4A4A4A;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           float: right;
           display: block;
         }
@@ -289,6 +293,8 @@ body {
           margin: 0.5rem;
         }
         nav {
+            background-color: #4A4A4A;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           float: right;
           display: block;
         }
