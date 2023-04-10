@@ -89,6 +89,7 @@ body {
     float: left;
     width:  200px;
     height: 200px;
+    max-width: 100%;
     object-fit: cover;
 }
   
@@ -211,6 +212,7 @@ body {
       float: left;
       width:  70px;
       height: 70px;
+      max-width: 100%;
       object-fit: cover;
     }
   }
@@ -255,6 +257,7 @@ body {
           float: left;
           width:  100px;
           height: 100px;
+          max-width: 100%;
           object-fit: cover;
         }
       }
@@ -299,6 +302,7 @@ body {
           float: left;
           width:  150px;
           height: 150px;
+          max-width: 100%;
           object-fit: cover;
         }
       }
